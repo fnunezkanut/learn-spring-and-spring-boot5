@@ -16,7 +16,7 @@ public class MyCustomizer{
 
 		TomcatEmbeddedServletContainerFactory factory = new TomcatEmbeddedServletContainerFactory(  );
 
-		factory.setContextPath( "/app3" );
+		//factory.setContextPath( "/app3" );
 
 		return factory;
 	}
